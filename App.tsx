@@ -50,7 +50,7 @@ export default function App() {
 
       try {
         const res = await axios.post(
-          "http://192.168.224.17:5000/upload",
+          "https://pdf-uploader-backend.onrender.com/upload",
           formData,
           {
             headers: { "Content-Type": "multipart/form-data" },
